@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root_fragment_single_note">
+
+    <TextView
+        android:layout_marginTop="4dp"
+        android:paddingLeft="4dp"
+        android:text="@string/note_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textColor="#FFF"
+        android:layout_marginBottom="4dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/NoteTitle"
+        android:layout_marginTop="8dp"
+        android:inputType="text"
+        android:gravity="top"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        style ="?android:listSeparatorTextViewStyle"/>
+
+    <TextView
+        android:paddingLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/note_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textColor="#FFF"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/NoteContent"
+        android:inputType="textMultiLine"
+        android:scrollHorizontally="false"
+        android:gravity="top|left"
+        android:textColor="#FFF"
+        android:textSize="20sp"/>
+
+
+    <ImageView
+        android:id="@+id/ImgCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+
+
+    <Button
+        android:id="@+id/btn_takepicture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/take_picture" />
+
+</LinearLayout>

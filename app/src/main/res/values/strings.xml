@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Simple Notepad</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="note_title">Titre :</string>
+    <string name="note_content">Note :</string>
+    <string name="new_note">Nouvelle note </string>
+    <string name="edit_note">Modifier la note</string>
+    <string name="delete_note">Supprimer</string>
+    <string name="save_note">Sauvegarder</string>
+    <string name="share_note">Partager</string>
+    <string name="note_summary_subject">SimpleNotepad note</string>
+    <string name="send_summary">Envoyer la note via : </string>
+    <string name="no_account"><u> Pas encore de compte ? </u></string>
+    <string name="name"><u> Identifiant  </u></string>
+    <string name="email"><u> Courriel </u></string>
+    <string name="password"><u> Mot de passe </u></string>
+    <string name="create"> Créer le compte </string>
+    <string name="take_picture"> Prendre une photo </string>
+    <string name="member"><u>Déjà membre ? </u></string>
+    <string name="info">Détails</string>
+</resources>

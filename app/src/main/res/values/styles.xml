@@ -1,0 +1,10 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat">
+
+        <!-- your app branding color for the app bar -->
+        <item name="colorPrimary">#000</item>
+
+        <item name="colorPrimaryDark">#000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>

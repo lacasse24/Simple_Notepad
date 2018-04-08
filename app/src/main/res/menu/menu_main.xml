@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.lac.alex.simplenotepad.NoteListActivity">
+    <item
+        android:id="@+id/menu_item_new_note"
+        android:icon="@drawable/ic_menu_add"
+        android:title="@string/new_note"
+        tools:ignore="AppCompatResource"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/ic_menu_info"
+        android:icon="@drawable/ic_menu_info_details"
+        android:title="@string/info"
+        tools:ignore="AppCompatResource"
+        app:showAsAction="never" />
+</menu>
